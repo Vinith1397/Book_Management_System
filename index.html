@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+       <title>Book Management System</title>
+    </head>
+    <body>
+        <h1>Book Managemnet System</h1>
+        <label for="bookname">Enyter book Name :</label>
+        <input type="text" id="bookname"><br><br>
+        <label for="authorname">Enter Author name:</label>
+        <textArea id="authorname"></textArea><br><br>
+        <label for="bookdescription">Book Description:</label>
+        <textarea  id="bookdescription" cols="30" rows="5"></textarea><br><br>
+        <label for="pagenumber">Enter No pf pages time</label>
+        <input type="number" id="pagenumber"><br><br>
+        <button onclick="addbook()">Add Book</button>
+        <label for="searchbooks">Serach for Books using Book name or Author name</label>
+        <input type="text" id="searchbook" placeholder="Enter book name or Author name">
+        <button onclick="searchbooks()">Serach</button>
+        
+        <div id="searchresults">
+
+        </div>
+        <script src="/booksystem.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+    </body>
+</html>
