@@ -1,6 +1,6 @@
 
 body {
-    background-image: linear-gradient(to right, rgba(244, 244, 249, 1) 50%, rgba(244, 244, 249, 0) 50%), url('Book_Management_System/images/image1.jpeg');
+    background-image: linear-gradient(to right, rgba(244, 244, 249, 1) 50%, rgba(244, 244, 249, 0) 50%), url('Book_System/images/image1.jpeg');
     background-size: cover; /* Cover the entire page */
     background-position: center right; /* Align the image to the center right */
     background-repeat: no-repeat; /* Do not repeat the image */
